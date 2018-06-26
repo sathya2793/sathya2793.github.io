@@ -1,5 +1,5 @@
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* phones:800px and down */
+@media only screen and (max-width: 800px) {
   /* home page */
   .banner-text h3 {
     font-weight: 500;
@@ -36,7 +36,7 @@
   }
 
   .table_conitaner {
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
   }
   th, td {
     text-align:center;
@@ -51,17 +51,17 @@
     font-size: 2rem
   }
   .experience {
-    width: 100%;
+    width: 97%;
     margin-left: auto;
     margin-right: auto
   }
   .education {
-    width: 100%;
+    width: 97%;
     margin-left: auto;
     margin-right: auto
   }
   .skills {
-    width: 100%;
+    width: 97%;
     margin-left: auto;
     margin-right: auto
   }
@@ -107,12 +107,89 @@
   }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+/*large phones : 600px and up */
+@media only screen and (min-width: 800px) {
+  /* home page */
+  .banner-text h3 {
+    font-weight: 200;
+    font-size: 3vw;
+    letter-spacing: 1px;
+    word-break: break-word
+  }
+  .banner-text h1 {
+    font-size: 5vw;
+    font-weight:800;
+    letter-spacing: 1px;
+    word-break: break-word
+  }
+  .button {
+    font-size: 1.5rem
+  }
+  /* about */
+  .container {
+    display: flex;
+    flex-flow: row;
+  }
 
-}
+  .hire_button {
+    font-size: 1rem
+  }
+  .about_block p {
+    line-height: 2.5
+  }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+  .table_conitaner {
+    flex-flow: row nowrap
+  }
+  th, td {
+    text-align:center;
+    line-height: 2;
+  }
 
+  /* profile */
+  .title{
+    font-size: 2rem
+  }
+  .title_skills{
+    font-size: 2rem
+  }
+  .experience {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto
+  }
+  .education {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto
+  }
+  .skills {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto
+  }
+  .card {
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto
+  }
+  .card_skill {
+    flex-flow: row;
+    margin-left: auto;
+    margin-right: auto
+  }
+  .card_skills {
+    width:93%;
+    word-break: break-word
+  }
+
+  /* portfolio */
+  .box {
+    flex: 70vh
+  }
+  /* footer */
+  footer p{
+  padding-top: .5vw;
+  font-size: 1.2rem
+  }
 }
