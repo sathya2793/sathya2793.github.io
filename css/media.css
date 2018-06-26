@@ -1,0 +1,118 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* home page */
+  .banner-text h3 {
+    font-weight: 500;
+    font-size: 5vw;
+    letter-spacing: 1px;
+    word-break: break-word
+  }
+  .banner-text h1 {
+    font-size: 6vw;
+    font-weight: 900;
+    letter-spacing: 1px;
+    word-break: break-word
+  }
+  .button {
+    font-size: 1rem
+  }
+  /* about */
+  .container {
+    flex-flow: column wrap;
+  }
+  .breif {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto
+  }
+  .hire_button {
+    font-size: 2rem
+  }
+  .about_me {
+    width: 100%;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto
+  }
+
+  .table_conitaner {
+    flex-flow: column nowrap;
+  }
+  th, td {
+    text-align:center;
+    line-height: 2;
+  }
+
+  /* profile */
+  .title{
+    font-size: 2rem
+  }
+  .title_skills{
+    font-size: 2rem
+  }
+  .experience {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto
+  }
+  .education {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto
+  }
+  .skills {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto
+  }
+  .card {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto
+  }
+  .card_cc {
+    width: 100%;
+    padding:2vw
+  }
+  .card_body {
+    width: 100%;
+    text-align:left;
+    word-break: break-word
+  }
+  .card_skill {
+    flex-flow: column;
+    margin-left: auto;
+    margin-right: auto
+  }
+  .card_skills {
+    width:93%;
+    word-break: break-word
+  }
+  .skills_color_beginner{
+    margin-top: 1vh
+  }
+  .skills_color_intermediate{
+    margin-top: 1vh
+  }
+  .skills_color_expert{
+    margin-top: 1vh
+  }
+  /* portfolio */
+  .box {
+    flex: 150vh
+  }
+  /* footer */
+  footer p{
+  font-size: .8rem
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
