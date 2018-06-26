@@ -107,7 +107,7 @@
   }
 }
 
-/*large phones : 600px and up */
+/*large phones : 800px and up */
 @media only screen and (min-width: 800px) {
   /* home page */
   .banner-text h3 {
@@ -179,7 +179,7 @@
     margin-right: auto
   }
   .card_skills {
-    width:93%;
+    width:97%;
     word-break: break-word
   }
 
