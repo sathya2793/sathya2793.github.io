@@ -1,0 +1,421 @@
+:root {
+  font-size: 15px;
+}
+/********
+ * body *
+ ********/
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #efefef;
+  font-family: 'Droid Serif',monospace, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  letter-spacing: 3px
+}
+/***********
+ * Section *
+ ***********/
+section {
+  position: relative;
+  width: 100%;
+  overflow: hidden
+}
+/********
+ * Home *
+ ********/
+#home {
+  position: relative;
+  width: 100%;
+  background: url(../images/header-background.jpg) center center no-repeat scroll;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  overflow: hidden
+}
+/*home-page text*/
+.banner {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  margin-top: 15vh;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+}
+/*color for animation text*/
+.typed {
+  color: #FDA54C
+}
+/*home button*/
+.button {
+  background: #099bba;
+  border-radius: 60px;
+  color: #f7f2ea;
+  padding: 1vw 2vw 1vw 2vw;
+  text-decoration: none;
+  line-height: 3em;
+  transition: width 2s
+}
+/*home button animation*/
+.button:hover {
+  background: #fc9f3c;
+  text-decoration: none
+}
+
+/*********
+ * About *
+ *********/
+#about {
+  position: relative;
+  width: 100%
+}
+/*In about page i create two card photo and Information*/
+.container {
+  margin: 14vh 2vh;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content:space-between;
+  align-items: flex-start
+}
+/*********
+ * photo *
+ *********/
+.breif {
+  text-align: center;
+  background-color: #fff;
+  width: 25% ;
+  overflow:hidden;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12)
+}
+/*align for img*/
+.breif img {
+  width: 100%;
+  height: auto
+}
+/*text*/
+.breif p {
+  margin-top: 5vh
+}
+/*button */
+.hire_button {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+  background-color: #099bba;
+  text-transform: capitalize;
+  border-radius: 60px;
+  color: #f7f2ea;
+  padding: 1vw 2vw 1vw 2vw;
+  text-decoration: none;
+  margin: 3vh 0;
+}
+/* icon */
+.social {
+  display: flex;
+  justify-content: space-around;
+  margin: 1vh;
+  width: 100%;
+  font-size: 2rem
+}
+/***************
+ * Information *
+ ***************/
+.about_me {
+  background-color: #fff;
+  width: 75%;
+  overflow: hidden;
+  margin-left: 3vh;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12)
+}
+/* title */
+.title {
+  text-align: left;
+  margin: 5vh;
+  border-bottom: 1px solid black
+}
+/* additional color*/
+.title span {
+  color: #099bba
+}
+
+/* text */
+.about_block p {
+  line-height: 1.8;
+  text-align: left;
+  letter-spacing: 3px;
+  text-indent: 30%;
+  margin: 5vh;
+  text-align:justify;
+}
+
+/* additional color goto profile page*/
+.about_block p span {
+  text-decoration: underline;
+  color: #099bba;
+  cursor: pointer
+}
+/* two table container*/
+.table_conitaner {
+  display: flex;
+}
+
+.about_table {
+  display:flex;
+  margin: 5vh
+}
+
+.about_table table {
+  border-collapse: collapse;
+  text-align:justify;
+  display: table-row-group
+}
+
+th, td {
+  border: 1px solid black;
+  table-layout: auto
+}
+
+
+
+/****************************************
+ * Profile--experience,education,skills *
+*****************************************/
+
+#profile {
+  position: relative;
+  width: 100%
+}
+
+/**************
+ * experience *
+ **************/
+.experience {
+  margin: 2vh;
+  display: flex;
+  flex-flow: column
+}
+/*************
+ * education *
+ *************/
+.education {
+  margin: 2vh;
+  display: flex;
+  flex-flow: column
+}
+/* card contain both card_cc and card_body*/
+.card {
+  margin: 2vh;
+  display: flex;
+  background-color: #fff;
+  width: 97%;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12)
+}
+.card_cc {
+  background-color: #099bba;
+  color: #fff;
+  width: 25%;
+  overflow: hidden;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  word-break: keep-all;
+  text-align: center;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12)
+}
+
+.card_body {
+  padding: 2vw;
+  text-align: left;
+  background-color: #fff;
+  width: 85%;
+  overflow: hidden;
+  word-break: break-word;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12)
+}
+
+.card_body p {
+  line-height: 2
+}
+
+/**********
+ * skills *
+ **********/
+.skills {
+  margin: 2vh
+}
+/* title for skills */
+.title_skills {
+  text-align: left;
+  margin: 2vh;
+  border-bottom: 1px solid black
+}
+/* additional color*/
+.title_skills span {
+  color: #099bba
+}
+/* card skill contain two card_skills one for Professional and other skills*/
+.card_skill {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: flex-start
+}
+
+.card_skills {
+  margin: 2vh;
+  padding: 1vw 1vw 0;
+  background-color: #fff;
+  width: 50%;
+  overflow: hidden;
+  word-break: break-word;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12)
+}
+
+/* Professional skill row */
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5vh;
+  width: 95%;
+  color: #099bba;
+}
+
+/* Professional skill column */
+.col {
+  margin: 2vh;
+  width: 100%
+}
+
+/* hover effect for column */
+.col:hover {
+	transform: scale(1.05)
+}
+/* progress bar */
+.progress {
+  background-color: #f1f1f1;
+  color: #000;
+  margin-top: 5px;
+  width: 100%
+}
+
+.progress_bar {
+  display: table;
+  box-shadow: none;
+  height: 2vh;
+  background-color: #099bba
+}
+/* other skills */
+ul li {
+  list-style: none
+}
+
+.skills_items {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:space-between
+}
+
+.skills_item {
+  position: relative;
+  margin:1vh 0;
+  padding: .5vw;
+  border-radius: 5px;
+  -webkit-transition-duration: .3s;
+  transition-duration: .3s;
+  cursor: pointer
+}
+.skills_item:hover {
+	transform: scale(1.05);
+}
+/* diffent color for Beginner,Intermediate and Expert */
+.skills_beginner {
+  border-left: .5vw solid rgba(142, 204, 240);
+  background-color: rgba(222, 238, 254)
+}
+
+.skills_intermediate {
+  border-left: .5vw solid rgba(223, 202, 92);
+  background-color: rgba(242, 240, 229)
+}
+
+.skills_expert {
+  border-left: .5vw solid rgba(89, 222, 90);
+  background-color: rgba(223, 251, 234)
+}
+
+/* footer at other skills */
+.skills_color_beginner::first-letter {
+  border-left: .5vw solid rgba(142, 204, 240)
+}
+
+.skills_color_intermediate::first-letter {
+  border-left: .5vw solid rgba(223, 202, 92)
+}
+
+.skills_color_expert::first-letter {
+  border-left: .5vw solid rgba(89, 222, 90)
+}
+
+
+
+/*************
+ * portfolio *
+ *************/
+
+#portfolio {
+  position: relative;
+  width: 100%
+}
+
+.work {
+  margin: 14vh 2vh
+}
+
+.work_imgs{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: flex-start
+}
+.box {
+  flex: 0 0 75vh;
+  margin: 2vh;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,.5)
+}
+.box img {
+    max-width: 100%
+  }
+
+.box:hover {
+	transform: scale(1.4)
+
+}
+
+/**********
+ * Footer *
+ **********/
+footer {
+   bottom:0px;
+   height:5vh;
+   width:100%;
+   background:#999
+}
+/*footer text*/
+footer p{
+  color:#fff;
+  padding-top: .5vw;
+  text-align: center
+}
