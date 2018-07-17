@@ -1,195 +1,79 @@
-/* phones:800px and down */
-@media only screen and (max-width: 800px) {
-  /* home page */
-  .banner-text h3 {
-    font-weight: 500;
-    font-size: 5vw;
-    letter-spacing: 1px;
-    word-break: break-word
-  }
-  .banner-text h1 {
-    font-size: 6vw;
-    font-weight: 900;
-    letter-spacing: 1px;
-    word-break: break-word
-  }
-  .button {
-    font-size: 1rem
-  }
-  /* about */
-  .container {
-    flex-flow: column wrap;
-  }
-  .breif {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto
-  }
-  .hire_button {
-    font-size: 2rem
-  }
-  .about_me {
-    width: 100%;
-    margin-top: 5vh;
-    margin-left: auto;
-    margin-right: auto
-  }
+/*Extra small devices (portrait phones, less than 576px) */
 
-  .table_conitaner {
-    flex-flow: column wrap;
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: .55rem;
   }
-  th, td {
-    text-align:center;
-    line-height: 2;
-  }
-
-  /* profile */
-  .title{
-    font-size: 2rem
-  }
-  .title_skills{
-    font-size: 2rem
-  }
-  .experience {
-    width: 97%;
-    margin-left: auto;
-    margin-right: auto
-  }
-  .education {
-    width: 97%;
-    margin-left: auto;
-    margin-right: auto
-  }
-  .skills {
-    width: 97%;
-    margin-left: auto;
-    margin-right: auto
-  }
-  .card {
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto
-  }
-  .card_cc {
-    width: 100%;
-    padding:2vw
-  }
-  .card_body {
-    width: 100%;
-    text-align:left;
-    word-break: break-word
-  }
-  .card_skill {
-    flex-flow: column;
-    margin-left: auto;
-    margin-right: auto
-  }
-  .card_skills {
-    width:93%;
-    word-break: break-word
-  }
-  .skills_color_beginner{
-    margin-top: 1vh
-  }
-  .skills_color_intermediate{
-    margin-top: 1vh
-  }
-  .skills_color_expert{
-    margin-top: 1vh
-  }
-  /* portfolio */
-  .box {
-    flex: 150vh
-  }
-  /* footer */
-  footer p{
-  font-size: .8rem
+  .card-block {
+    margin-left: 2vw;
+    margin-right: 2vw;
   }
 }
 
-/*large phones : 800px and up */
-@media only screen and (min-width: 800px) {
-  /* home page */
-  .banner-text h3 {
-    font-weight: 200;
-    font-size: 3vw;
-    letter-spacing: 1px;
-    word-break: break-word
-  }
-  .banner-text h1 {
-    font-size: 5vw;
-    font-weight:800;
-    letter-spacing: 1px;
-    word-break: break-word
-  }
-  .button {
-    font-size: 1.5rem
-  }
-  /* about */
-  .container {
-    display: flex;
-    flex-flow: row;
-  }
+/* Small devices (landscape phones, 576px and up) */
 
-  .hire_button {
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+  html {
+    font-size: .8rem
+  }
+  .card-block {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  html {
     font-size: 1rem
   }
-  .about_block p {
-    line-height: 2.5
-  }
+}
 
-  .table_conitaner {
-    flex-flow: row nowrap
-  }
-  th, td {
-    text-align:center;
-    line-height: 2;
-  }
+/* Large devices (desktops, 992px and up) */
 
-  /* profile */
-  .title{
-    font-size: 2rem
+@media only screen and (min-width: 992px) {
+  html {
+    font-size: 1.5rem
   }
-  .title_skills{
-    font-size: 2rem
-  }
-  .experience {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto
-  }
-  .education {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto
-  }
-  .skills {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto
-  }
-  .card {
-    flex-direction: row;
-    margin-left: auto;
-    margin-right: auto
-  }
-  .card_skill {
-    flex-flow: row;
-    margin-left: auto;
-    margin-right: auto
-  }
-  .card_skills {
-    width:97%;
-    word-break: break-word
-  }
+}
 
-  /* portfolio */
-  .box {
-    flex: 70vh
+/* social icon */
+
+@media only screen and (max-width: 576px) {
+  .social {
+    font-size: 2rem;
   }
-  /* footer */
-  footer p{
-  padding-top: .5vw;
-  font-size: 1.2rem
+  .icon {
+    padding: 2vw;
+    width: 10vw;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 670px) {
+  .social {
+    font-size: 1.2rem;
+  }
+  .icon {
+    padding: 1vw;
+    width: 5vw;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+}
+
+@media only screen and (min-width: 670px) {
+  .social {
+    font-size: 1.2rem;
+  }
+  .icon {
+    padding: .8vw;
+    width: 4vw;
+    text-decoration: none;
+    border-radius: 50%;
   }
 }
