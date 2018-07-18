@@ -252,3 +252,11 @@ ul li {
 .box img {
   max-width: 100%
 }
+
+/**********
+ * footer *
+ **********/
+
+footer {
+  bottom: 0;
+}
