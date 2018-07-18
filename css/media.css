@@ -26,7 +26,7 @@
 
 /* Medium devices (tablets, 768px and up) */
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
   html {
     font-size: 1rem
   }
@@ -36,36 +36,60 @@
 
 @media only screen and (max-width: 576px) {
   .social {
-    font-size: 2rem;
+    font-size: 30px;
   }
   .icon {
-    padding: 2vw;
-    width: 10vw;
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    border-radius: 200px;
+    line-height: 44px;
     text-decoration: none;
-    border-radius: 50%;
+    padding: 1vw
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 670px) {
   .social {
-    font-size: 1.2rem;
+    font-size: 24px;
   }
   .icon {
-    padding: 1vw;
-    width: 5vw;
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    border-radius: 100px;
+    line-height: 11px;
     text-decoration: none;
-    border-radius: 50%;
+    padding: .5vw
   }
 }
 
-@media only screen and (min-width: 670px) {
+@media only screen and (min-width: 670px) and (max-width: 989px){
   .social {
-    font-size: 1.2rem;
+    font-size: 24px;
   }
   .icon {
-    padding: .8vw;
-    width: 4vw;
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    border-radius: 200px;
+    line-height: 33px;
     text-decoration: none;
-    border-radius: 50%;
+    padding: .5vw
+  }
+}
+
+@media only screen and (min-width: 989px){
+  .social {
+    font-size: 30px;
+  }
+  .icon {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    border-radius: 200px;
+    line-height: 44px;
+    text-decoration: none;
+    padding: .5vw
   }
 }
