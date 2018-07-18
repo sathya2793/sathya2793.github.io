@@ -109,11 +109,11 @@ section {
   -webkit-background-size: cover;
   overflow: hidden
 }
-
-.line h3 {
-  line-height: 1.6
+h1 #myH1,h1 #myH2,h1 #myH3 {
+  position:absolute;
+    display: block;
+    width: 100%
 }
-
 /*********
  * About *
  *********/
@@ -159,7 +159,7 @@ section {
 }
 
 .about_details p {
-  letter-spacing: 1.6;
+  letter-spacing: 1.2;
   text-indent: 20%
 }
 
@@ -174,7 +174,7 @@ section {
 *****************************************/
 
 .parag p {
-  letter-spacing: 1.6
+  letter-spacing: 1.2
 }
 
 /* other skills */
