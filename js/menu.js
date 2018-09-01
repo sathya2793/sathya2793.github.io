@@ -39,31 +39,3 @@ $(window).scroll(function(){
       $("#navbar").css({"visibility":"visible"})
   }
 });
-$(document).ready(function() {
-    $('.gallery').mauGallery({
-        columns: {
-            xs: 1,
-            sm: 2,
-            md: 2,
-            lg: 3,
-            xl: 4
-        },
-        lightBox: true,
-        lightboxId: null,
-        showTags: true,
-        tagsPosition: 'top'
-    });
-    $('.two img').click(function(e) {
-        // $(this).listImage()
-        $(this).listImage({
-            list: [
-                'https://placeimg.com/640/480/animals',
-                'https://placeimg.com/640/480/arch',
-                'https://placeimg.com/640/480/nature',
-                'https://placeimg.com/640/480/people',
-                'https://placeimg.com/640/480/tech',
-            ]
-        })
-    })
-
-});
